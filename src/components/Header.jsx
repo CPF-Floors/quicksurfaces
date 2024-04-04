@@ -29,7 +29,7 @@ function Header() {
           <motion.nav
             className="mobile-nav"
             initial={{ opacity: 0, height: 0}}
-            animate={{ opacity: 1, height: 400}}
+            animate={{ opacity: 1, height: 400, transform: 200}}
             exit={{opacity:0, height: 0}}
           >
             <Link>Specifications</Link>
