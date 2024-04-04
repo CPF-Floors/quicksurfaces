@@ -1,6 +1,11 @@
+import LoadScreen from "./components/LoadScreen";
+
 function App() {
   return ( 
-    <h1>HELLO</h1>
+    <>
+      <LoadScreen />
+      <h1>HELLO</h1>
+    </>
    );
 }
 

@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { Suspense, lazy } from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+
 import './scss/index.scss'
 
+import LoadScreen from './components/LoadScreen'
+const App = lazy(() => import('./App'))
+
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <Suspense fallback={<LoadScreen />}>
     <App />
-  </React.StrictMode>,
+  </Suspense>
 )
