@@ -1,12 +1,18 @@
-import LoadScreen from "./components/LoadScreen";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./Pages/Home";
+
 
 function App() {
-  return ( 
+  return (
     <>
-      <LoadScreen />
-      <h1>HELLO</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+        </Routes>
+      </BrowserRouter>
     </>
-   );
+  );
 }
 
 export default App;
