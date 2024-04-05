@@ -1,5 +1,5 @@
 import "../scss/CropBanner.scss";
-import PulseOneCarousel from "./PulseOneCarousel";
+import PulseFourCarousel from "./PulseFourCarousel";
 
 function CropBannerFour() {
   return (
@@ -23,7 +23,7 @@ function CropBannerFour() {
       <div className="carousel-container">
         <h2>Flooring Gallery</h2>
         <p>Explore our stunning collection of flooring options.</p>
-        <PulseOneCarousel />
+        <PulseFourCarousel />
       </div>
 
       <div className="specs-container">
