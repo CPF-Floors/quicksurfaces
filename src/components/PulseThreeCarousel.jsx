@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import "../scss/Carousel.scss";
 
 
-const PulseTwoCarousel = () => {
+const PulseThreeCarousel = () => {
 
   const [emblaRef, emblaApi] = useEmblaCarousel();
 
@@ -33,80 +33,80 @@ const PulseTwoCarousel = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2023/07/VALLEY-OAK-1024x1024.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/09/BLASS-GRAY-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Smoked Beige</h3>
+                <h3 style={{ marginTop: "40px" }}>Hygge Gray</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2021/11/TIMELINE-1024x1024.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/09/BRUT-OAK-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Licht</h3>
+                <h3 style={{ marginTop: "40px" }}>Scandi Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2022/11/PROPOSITION-1024x1024.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/09/COFFEE-CREAM-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Lumina</h3>
+                <h3 style={{ marginTop: "40px" }}>Japandi Beige</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2022/12/SIMPLY-AWESOME-1024x1024.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/09/CERISE-copia-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Ebony</h3>
+                <h3 style={{ marginTop: "40px" }}>Kirsche Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2022/12/TAKEOFF-1024x1024.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/09/CREME-BRULEE-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Ambra</h3>
+                <h3 style={{ marginTop: "40px" }}>Live Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2022/12/Drawing-2-1024x1024.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/09/DARK-CREME-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Avoria</h3>
+                <h3 style={{ marginTop: "40px" }}>Truffle Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2022/12/LETS-DO-IT-1024x1024.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/09/BALANCED-OAK-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Shortbread</h3>
+                <h3 style={{ marginTop: "40px" }}>Serenity Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://cpffloors.com/wp-content/uploads/2022/12/Execution-1024x1024.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/09/SLATE-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Hasselnuss</h3>
+                <h3 style={{ marginTop: "40px" }}>Chic Dark</h3>
               </div>
             </Link>
           </div>
@@ -124,4 +124,4 @@ const PulseTwoCarousel = () => {
     </>
   );
 };
-export default PulseTwoCarousel;
+export default PulseThreeCarousel;
