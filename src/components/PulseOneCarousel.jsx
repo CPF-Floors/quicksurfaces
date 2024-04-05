@@ -33,80 +33,80 @@ const PulseOneCarousel = () => {
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/BALANCED-OAK-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2021/02/Charcoal-1-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Balanced Oak</h3>
+                <h3 style={{ marginTop: "40px" }}>Mood Gray</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/BLASS-GRAY-ROOM-SCENE-jpg-2048x2048.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2020/10/METAL-MIX-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Blass Gray</h3>
+                <h3 style={{ marginTop: "40px" }}>Fearless Gray</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/BRUT-OAK-ROOM-SCENE-jpg-2048x2048.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/03/Sara-oak-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Brut Oak</h3>
+                <h3 style={{ marginTop: "40px" }}>Trustable Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/CERISE-ROOM-SCENE-copia-jpg-2048x2048.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2020/10/Rustic-Pine-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Cerise</h3>
+                <h3 style={{ marginTop: "40px" }}>Grateful Pine</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/COFFEE-CREAM-ROOM-SCENE-jpg-2048x2048.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/03/COMMON-OAK-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Coffee Cream</h3>
+                <h3 style={{ marginTop: "40px" }}>Vital Oak</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SUNSET-WALNUT-ROOM-SCENE-1200x1200-1.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/07/DARK-GREIGE-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Sunset Walnut</h3>
+                <h3 style={{ marginTop: "40px" }}>Expressive Brown</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/DARK-CREME-ROOM-SCENE-jpg-2048x2048.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/03/Cherry-Blossom-1-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Dark Creme</h3>
+                <h3 style={{ marginTop: "40px" }}>Euphory Cherry</h3>
               </div>
             </Link>
 
             <Link style={{ margin: "25px", color: "black" }}>
               <div className="embla__slide">
                 <img
-                  src="https://dealers.cpffloors.com/wp-content/uploads/2024/02/SLATE-ROOM-SCENE-jpg-2048x2048.webp"
+                  src="https://cpffloors.com/wp-content/uploads/2023/07/VALLEY-OAK-1024x1024.webp"
                   alt=""
                 />
-                <h3 style={{ marginTop: "40px" }}>Slate</h3>
+                <h3 style={{ marginTop: "40px" }}>Neutral Greige</h3>
               </div>
             </Link>
           </div>

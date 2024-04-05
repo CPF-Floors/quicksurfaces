@@ -6,7 +6,7 @@ function CropBannerThree() {
     <>
       <div style={{backgroundColor:'#ec4755'}} className="crop-banner-container">
         <div className="crop-img">
-          <img src="./Capa_1(2).svg" alt="" />
+          <img src="./Capa_1(3).svg" alt="" />
         </div>
         <div className="crop-text">
           <p>
@@ -47,8 +47,9 @@ function CropBannerThree() {
           <img src="/sp2-1.svg" alt="" />
           <img src="/sp1-2.svg" alt="" />
           <img src="/sp1-3.svg" alt="" />
-          <img src="/sp1-4.svg" alt="" />
-          <img src="/sp1-5.svg" alt="" />
+          <img src="/sp3-1.svg" alt="" />
+          <img src="/sp3-2.svg" alt="" />
+          <img src="/sp3-3.svg" alt="" />
         </div>
       </div>
     </>
