@@ -19,7 +19,62 @@
         width: 50%;
         color: white;
     }
+
 }
+.carousel-container{
+    text-align: center;
+    padding: 100px 0;
+    h2{
+        margin-bottom: 20px;
+    }
+}
+.specs-container{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    padding: 80px 0;
+    background-image: url('./pexels-muhamad-lutfi-6360703 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    color: #464646;
+    h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 40px;
+    }
+    img{
+        width: 80%;
+    }
+    .icons-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        img{
+            height: 180px;
+            width: auto;
+            margin: 20px 40px;
+        }
+    }
+}
+.mils-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .mils-specs{
+        margin: 20px 40px;
+        h3{
+            font-size: 35px;
+        }
+    }
+}
+
 
 /*MEDIA QUERIES*/
 
@@ -32,7 +87,7 @@
             padding: 0;
             text-align: center;
             img{
-                width: 70%;
+                width: 100%;
             }
         }
         .crop-text{

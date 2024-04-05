@@ -67,4 +67,35 @@
             width: 100%;
         }
     }
+    @media(max-width:980px){
+        .main-banner{
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            padding: 40px;
+            height: 75vh;
+            margin-top: 200px;
+            margin-bottom: 150px;
+            .banner-img{
+                height: 70%;
+                margin-top: 60PX;
+                margin-bottom: 80PX;
+                img{
+                    height: 350px;
+                }
+            }
+            .banner-text{
+                height: 100%;
+                width: 100%;
+            }
+            h1{
+                width: 100%;
+                text-align: center;
+                font-size: 30px;
+            }
+            p{
+                width: 100%;
+            }
+        }
+    }
 }

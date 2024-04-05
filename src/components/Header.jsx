@@ -10,7 +10,6 @@ function Header() {
   return (
     <>
       <header>
-
         <img src="./Group146.svg" alt="" />
 
         <div className="mobile-bar" onClick={()=>setOpen(!open)}>
@@ -36,6 +35,7 @@ function Header() {
             <Link>Collections</Link>
             <Link>Roomvo</Link>
             <Link>Contact Us</Link>
+            <img style={{marginTop:'40px'}} src="./Group.svg" alt="" />
           </motion.nav>
           )}
         </AnimatePresence>
