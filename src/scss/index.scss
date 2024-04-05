@@ -4,3 +4,18 @@
   box-sizing: border-box;
   font-family: montserrat;
 }
+body{
+  button{
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    gap: 15px;
+  }
+  p{
+    font-weight: 600;
+  }
+}
