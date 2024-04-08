@@ -12,9 +12,16 @@ function Header() {
       <header>
         <img src="./Group146.svg" alt="" />
 
-        <div className="mobile-bar" onClick={()=>setOpen(!open)}>
+        <motion.div className="mobile-bar" onClick={()=>setOpen(!open)}
+          whileTap={{
+            scale: 0.8,
+            rotate: -360,
+            transition: 5
+          }}
+        
+        >
           <img src="./bars-solid.svg" alt="" />
-        </div>
+        </motion.div>
 
         <nav className="desktop-nav">
           <Link>Specifications</Link>
