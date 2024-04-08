@@ -1,5 +1,6 @@
 import "../scss/MainBanner.scss";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion"
 
 function MainBannerThree() {
   return (
@@ -10,7 +11,7 @@ function MainBannerThree() {
         Pulse 3.0 is a remarkably versatile and long-lasting solution that seamlessly blends thickness, wear resistance, size, and classic aesthetics to cater to various design preferences and practical needs.
         </p>
         <Link>
-          <button>Get Started</button>
+          <motion.button whileHover={{scale:1.1}} transition={{duraction:0.5}}>Get Started</motion.button>
         </Link>
       </div>
       <div className="banner-img">
