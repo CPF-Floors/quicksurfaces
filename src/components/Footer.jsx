@@ -9,7 +9,7 @@ function Footer() {
         <p>Our postal adderss and contact details</p>
       </div>
       <div className="contact-social">
-        <Link target="blank" to="">
+        <Link target="blank" to="https://www.instagram.com/quicksurfaces?igsh=cjNvOXhjc3Nzb2g2">
           <div className="contact">
             <i className="fa-brands fa-instagram"></i>
             <div className="text">
